@@ -2,7 +2,7 @@
 using HarmonyLib;
 using Verse;
 
-namespace Multiplayer.Compat.Mods
+namespace Multiplayer.Compat
 {
     [MpCompatFor("Mlie.ThisIsMine")]
     public class ThisIsMine
