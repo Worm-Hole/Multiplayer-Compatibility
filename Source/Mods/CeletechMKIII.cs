@@ -64,6 +64,7 @@ namespace Multiplayer.Compat
             MpCompat.RegisterLambdaMethod(CMCTurretGunMainBattery, "GetGizmos", 0, 1);
             MpCompat.RegisterLambdaMethod(WeaponModificationBench, "GetGizmos", 0, 1, 2);
             MpCompat.RegisterLambdaMethod(TradeConsole, "GetGizmos", 0, 1, 2);
+            MpCompat.RegisterLambdaMethod(FRShield, "GetGizmos", 0);
 
             MpCompat.RegisterLambdaMethod(WeaponModificationBench, "GetFloatMenuOptions", 0);
             MpCompat.RegisterLambdaMethod(AccessoryContainerType, "CompGetGizmosExtra", 0, 1);
